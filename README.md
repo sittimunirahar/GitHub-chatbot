@@ -1,8 +1,6 @@
 # GitHub Chatbot - Custom Question Answering
 
-This is an Azure Bot Framework called GitHub Chatbot. It is a custom question answering bot that uses a trained knowledge base as its source. The sources were generated from Github Documentation of Get Started https://docs.github.com/en/get-started, editorial and chit chat. 
-
-This bot framework SDK source code is generated from Azure bot created in my azure subscription. 
+This is an Azure Bot Framework called GitHub Chatbot. It is a custom question answering bot that uses a trained knowledge base as its source, generated from Github Documentation of Get Started https://docs.github.com/en/get-started, editorial and chit chat. 
 
 This project is for [Microsoft Code; Without Barriers Hackathon 2023](https://cwb2023.devpost.com/)
 
