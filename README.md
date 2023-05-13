@@ -31,22 +31,28 @@ In this bot, several features are demonstrated:
 ### Hero card & multi-turn prompt:
 
 Click on ‘Quickstart’ or any option on Welcome message prompt
+The bot should return a respond with multiple choices
 
 ### Suggestion card:
 
-After getting atleast one answer, click on ‘Glossary’ on suggestion card at the bottom of the chat
+After getting atleast an answer from the bot, a suggestion card should persistently appear at the bottom of the bot
+click any of the button 
+The bot should return the appropriate respond
 
 ### Question Answering:
 
 Type ‘What is GitHub?’
+The bot should return an answer that describes about GitHub
 
 ### Friendly chit chat:
 
 Type ‘How are you?’
+The bot should return a friendly respond
 
 ### Active learning:
 
 1. Enter ambiguous utterance: ‘create a repo’
 2. Notice that the bot returns 'Did you mean?' with a few suggestions
-3. 
+3. Click on the option
+4. Open language studio, 
 
