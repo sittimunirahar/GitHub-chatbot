@@ -1,8 +1,11 @@
 # GitHub Chatbot - Custom Question Answering
 
-This is an Azure Bot Framework called GitHub Chatbot. It is a custom question answering bot that uses a trained knowledge base as its source, generated from Github Documentation of Get Started https://docs.github.com/en/get-started, editorial and chit chat. 
+This is an Azure Bot called GitHub Chatbot. It is a custom question answering bot that uses a trained knowledge base as its source, generated from Github Documentation of Get Started https://docs.github.com/en/get-started, editorial and chit chat. 
+
+Built with: Azure bot, Netlify, node.js
 
 This project is for [Microsoft Code; Without Barriers Hackathon 2023](https://cwb2023.devpost.com/)
+Project submission can be found here: https://devpost.com/software/github-chatbot
 
 ## Concepts implemented
 
@@ -12,15 +15,25 @@ In this bot, several features are demonstrated:
 3. User interface design: hero card and suggestion card
 4. Question answering 
 5. Friendly chit chat
+6. Bot cards: hero card & suggestion card
 
 ## Prerequisites
 
 1. Create azure subscription 
 2. Create language resource with custom question answering enabled
 3. Create and deploy knowledge base in Language Studio
-    * Import file
+    1. Download githubqna_qnas.xlsx in public folder
+    2. Open language studio, sign in and select resource (the language resources created previously in Azure portal)
+    3. Create new > custom question answering
+    4. Manage sources > add source > file
+    5. Add file
+    6. Enter source name, choose file
+    7. Add all
+    8. Upon completion, verify that the sources list now has chitchat friendly, Open source, Get started and editorial
+    9. Edit knowledge base accordingly
+    10. Deploy knowledge base > Deploy
 4. Clone this bot framework SDK source code
-5. Provision and publish the bot
+5. Provision and publish the bot by following the instructions below:
     * https://learn.microsoft.com/en-us/azure/bot-service/provision-and-publish-a-bot?view=azure-bot-service-4.0&tabs=userassigned%2Ccsharp
 6. Test bot in web chat
 
@@ -55,6 +68,6 @@ The bot should return a friendly respond
 
 1. Enter ambiguous utterance: ‘create a repo’
 2. Notice that the bot returns 'Did you mean?' with a few suggestions
-3. Click on the option
+3. Click one of the options
 4. Open language studio, 
 
