@@ -12,10 +12,9 @@ Project submission can be found here: https://devpost.com/software/github-chatbo
 In this bot, several features are demonstrated:
 1. Active learning
 2. Follow-up prompts (multiturn conversation)
-3. User interface design: hero card and suggestion card
+3. UI design for bot: hero card and suggestion card
 4. Question answering 
 5. Friendly chit chat
-6. Bot cards: hero card & suggestion card
 
 ## Prerequisites
 
